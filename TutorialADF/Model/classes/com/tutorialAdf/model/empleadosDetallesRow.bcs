@@ -1,0 +1,12 @@
+//Groovy Scripts for com.tutorialAdf.model.empleadosDetalles
+
+package com.tutorialAdf.model
+
+import oracle.jbo.script.annotation.TransientValueExpression;
+
+@TransientValueExpression(attributeName="AnnualSalary")
+def AnnualSalary_ExpressionScript_Expression()
+{
+(Salary == null? 0 : Salary)* 12
+}
+

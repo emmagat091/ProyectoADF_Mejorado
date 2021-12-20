@@ -1,0 +1,12 @@
+//Groovy Scripts for com.tutorialAdf.model.Employees
+
+package com.tutorialAdf.model
+
+import oracle.jbo.script.annotation.TransientValueExpression;
+
+@TransientValueExpression(attributeName="HireDate")
+def HireDate_ExpressionScript_Expression()
+{
+adf.currentDate
+}
+

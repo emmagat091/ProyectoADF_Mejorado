@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BC4JConfig version="11.1" xmlns="http://xmlns.oracle.com/bc4j/configuration">
+   <AppModuleConfigBag ApplicationName="com.tutorialAdf.model.AppModule">
+      <AppModuleConfig name="17DC5FD05BB" IsLazyLoadingTrue="true" DBconnection="java:comp/env/jdbc/TutorialAdfDS" ApplicationName="com.tutorialAdf.model.AppModule" jbo.project="com.tutorialAdf.model.Model" BC4JConfigName="AppModuleLocal" JDBCName="TutorialAdf" DeployPlatform="LOCAL" java.naming.factory.initial="oracle.jbo.common.JboInitialContextFactory">
+         <Database JDBCDataSource="java:comp/env/jdbc/TutorialAdfDS" jbo.SQLBuilder="Oracle" jbo.locking.mode="optimistic" jbo.TypeMapEntries="OracleApps"/>
+         <Security AppModuleJndiName="com.tutorialAdf.model.AppModule"/>
+         <Tester FullProxyInterfaceName="com.tutorialAdf.model.common.AppModule"/>
+         <Custom ns0:LastUsedConfiguration="AppModuleLocal" ns0:tester_classloader_enabled="true" ns0:_testers_credentials_needed="false" xmlns:ns0="http://xmlns.oracle.com/bc4j/configuration"/>
+      </AppModuleConfig>
+   </AppModuleConfigBag>
+</BC4JConfig>
